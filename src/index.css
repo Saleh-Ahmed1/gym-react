@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+html,
+body,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #efe6e6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffa6a3;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6b66;
+}
